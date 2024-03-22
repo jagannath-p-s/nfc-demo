@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+      <link rel="stylesheet" href="./styles.css">
+      <script>
+        function openURL(url) {
+            // Check if the URL starts with 'upi://' protocol
+            if (url.startsWith('upi://pay')) {
+                // Redirect to UPI app
+                window.location.href = url;
+            } else if (url.startsWith('https://g.co/kgs')) {
+                // Redirect to Google Maps
+                window.location.href = url;
+            } else {
+                // For other URLs, open in the browser
+                window.open(url, '_blank');
+            }
+        }
+      </script>
+      <script>
+        function generateVCard() {
+            // Hardcoded contact information
+            const name = "Smijo jose";
+            const email = "Smijopilikkottil-1@gmail.com";
+            const phone = "+91 8606602888";
+
+            // Format contact information into vCard string
+            const vCardData = `BEGIN:VCARD\nVERSION:3.0\nFN:${name}\nEMAIL:${email}\nTEL:${phone}\nEND:VCARD`;
+
+            // Create blob for file download
+            const blob = new Blob([vCardData], { type: 'text/vcard' });
+            const url = window.URL.createObjectURL(blob);
+
+            // Create link for download
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = 'contact.vcf';
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+
+            // Release blob URL
+            window.URL.revokeObjectURL(url);
+        }
+      </script>
+   </head>
+   <body>
+      <div class="css1">
+         <main id="product-data-1" class="main">
+            <div class="profile-card">
+               <img src="./images/imagebg.png" alt="Avatar" id="style-9tPFf" class="style-9tPFf">
+            </div>
+            <div class="content-card">
+               <div class="profile-image">
+                  <img class="profile-avatar" src="./images/image.png" alt="Avatar">
+               </div>
+               <div class="profile-details">
+                  <div class="username">
+                     <p>Smijo Jose</p>
+                  </div>
+                  <div class="designation">
+                     <p><span>Whitedog CEO </span></p>
+                  </div>
+                  <div class="personalBio">
+                     <p> </p>
+                  </div>
+                  <div class="profile-button" id="profile-button">
+                     <button class="connect-btn" onclick="generateVCard()">Save Contact</button>
+                     <button class="connect-btn" onclick="shareContact()">Share Contact</button>
+                  </div>
+               </div>
+            </div>
+            <div class="social-media-links">
+               <div class="row1">
+                  <div class="wrapper">
+                     <img src="./images/image7EKMd_1699530932151.png" alt="WhatsApp" onclick="openURL('https://api.whatsapp.com/send?phone=918606602888');">
+                     <span class="alt-text">WhatsApp</span>
+                  </div>
+                  <div class="wrapper">
+                     <img src="./images/imageBEfXo_1699530877766.png" alt="Facebook" onclick="openURL('https://www.facebook.com/whitedogofficial?mibextid=uzlsIk');">
+                     <span class="alt-text">Facebook</span>
+                  </div>
+                  <div class="wrapper">
+                     <img src="./images/imagenX68y_1699531038384.png" alt="Instagram" onclick="openURL('https://www.instagram.com/whitedog_official?utm_source=qr&igsh=bXZhYmt3Nmk1Nmdr');">
+                     <span class="alt-text">Instagram</span>
+                  </div>
+                  <div class="wrapper">
+                     <img src="./images/imageJcvPu_1699531067656.png" alt="Youtube" onclick="openURL('https://www.youtube.com/watch?v=POpV_3qRfGE');">
+                     <span class="alt-text">Youtube</span>
+                  </div>
+                  <div class="wrapper">
+                     <img src="./images/imageRz8Aw_1699531053443.png" alt="Website" onclick="openURL('https://www.instagram.com/whitedog_official?utm_source=qr&igsh=bXZhYmt3Nmk1Nmdr');">
+                     <span class="alt-text">Website</span>
+                  </div>
+                  <div class="wrapper">
+                     <img src="./images/image9wuLY_1699530893817.png" alt="LinkedIn" onclick="openURL('https://www.linkedin.com/');">
+                     <span class="alt-text">LinkedIn</span>
+                  </div>
+                  <div class="wrapper">
+                     <img src="./images/imageU4JyS_1699531010096.png" alt="Phone" onclick="openURL('tel:+918606602888');">
+                     <span class="alt-text">Phone</span>
+                  </div>
+                  <div class="wrapper">
+                     <img src="./images/image37wBs_1699532831432.png" alt="Google Reviews" onclick="openURL('https://g.co/kgs/RH84k86');">
+                     <span class="alt-text">Map Reviews</span>
+                  </div>
+                  <div class="wrapper">
+                     <img src="./images/imageT5Sjk_1705478993757.png" alt="Paytm" onclick="openURL('upi://pay?pa=smijopulikkottil-1@okaxis&pn=Smijo Jose');">
+                     <span class="alt-text">Payment UPI</span>
+                  </div>
+               </div>
+            </div>
+         </main>
+      </div>
+   </body>
+</html>
