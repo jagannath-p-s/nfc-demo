@@ -1,0 +1,360 @@
+  body {  
+    font-size:100%;
+    font-family:Nunito,sans-serif!important;
+    font-weight:400;
+  }  
+* { 
+    outline: 0;
+} 
+
+* { 
+    padding: 0; 
+    margin: 0;
+} 
+
+* { 
+    border: 0; 
+    box-sizing: border-box; 
+    -webkit-appearance: value; 
+    -moz-appearance: value; 
+    appearance: value; 
+    word-break: break-word;
+} 
+
+body { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    outline: 0; 
+    font-size: 100%;
+} 
+
+body { 
+    height: 100%;
+} 
+
+body { 
+    font-family: Nunito,sans-serif!important; 
+    font-weight: 400; 
+    scroll-behavior: smooth; 
+    background-color: #000000;
+} 
+
+html { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    outline: 0; 
+    font-size: 100%;
+} 
+
+html { 
+    height: 100%;
+} 
+
+.main { 
+    position: relative;
+} 
+
+.main { 
+    min-height: 100%; 
+    max-width: 400px; 
+    margin: 0 auto; 
+    padding: 0 0 50px;
+} 
+
+.profile-card { 
+    text-align: center;
+} 
+
+.profile-card { 
+    width: 100%; 
+    max-height: 212px; 
+    overflow: hidden; 
+    margin: 0 auto; 
+    background: #000; 
+    border-radius: 0 0 8px 8px;
+} 
+
+.content-card { 
+    position: relative;
+} 
+
+.content-card { 
+    margin: -18px auto 0; 
+    max-width: 92%; 
+    padding: 0 15px; 
+    border: 2px solid #8080807d; 
+    border-radius: 11px; 
+    background: #1f2130;
+} 
+
+img { 
+    -webkit-tap-highlight-color: transparent;
+} 
+
+img { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    outline: 0; 
+    font-size: 100%;
+} 
+
+img { 
+    user-select: none; 
+    -webkit-user-drag: auto;
+} 
+
+img { 
+    -moz-tap-highlight-color: transparent;
+} 
+
+.profile-card img  { 
+    width: 100%; 
+    height: 100%; 
+    display: block;
+} 
+
+.profile-image { 
+    position: relative;
+} 
+
+.profile-image { 
+    text-align: center;
+} 
+
+.row1 { 
+    display: flex; 
+    flex-flow: wrap; 
+    max-width: 100%; 
+    margin: 19px auto; 
+    justify-content: space-evenly;
+} 
+
+.profile-image .profile-avatar  { 
+    width: 110px; 
+    height: 110px; 
+    border-radius: 50%; 
+    margin: -50px auto 0; 
+    border: 1px solid #626262;
+} 
+
+.profile-image .company-logo  { 
+    width: 45px; 
+    height: 45px; 
+    margin-left: 0; 
+    border-radius: 50%; 
+    border: 2px solid #01086d; 
+    position: absolute; 
+    left: 64%; 
+    top: 58%; 
+    transform: translate(-50%,-50%);
+} 
+
+.personalBio { 
+    margin-bottom: 20px;
+} 
+
+.profile-button { 
+    margin-bottom: 20px;
+} 
+
+.profile-button { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+} 
+
+.row1 .wrapper  { 
+    text-align: center;
+} 
+
+.row1 .wrapper  { 
+    margin: 0 0 27px; 
+    width: 27%;
+} 
+
+.row1 .wrapper  { 
+    display: flex; 
+    flex-direction: column; 
+    overflow: hidden;
+} 
+
+a { 
+    -webkit-tap-highlight-color: transparent;
+} 
+
+a { 
+    cursor: pointer;
+} 
+
+a { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    outline: 0; 
+    font-size: 100%;
+} 
+
+a { 
+    text-decoration: none; 
+    border: 0; 
+    outline: 0!important; 
+    transition: .3s ease-in; 
+    -moz-transition: .3s ease-in; 
+    -ms-transition: .3s ease-in; 
+    -o-transition: .3s ease-in; 
+    -webkit-transition: .3s ease-in;
+} 
+
+a { 
+    transition: .3s ease-in; 
+    -moz-transition: .3s ease-in; 
+    -ms-transition: .3s ease-in; 
+    -o-transition: .3s ease-in; 
+    -webkit-transition: .3s ease-in;
+} 
+
+a { 
+    -moz-tap-highlight-color: transparent;
+} 
+
+a:active,a:hover { 
+    text-decoration: none!important;
+} 
+
+p { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    outline: 0; 
+    font-size: 100%;
+} 
+
+.username p  { 
+    font-size: 20px; 
+    color: #fff; 
+    text-align: center;
+} 
+
+.username p  { 
+    text-align: center;
+} 
+
+.username p  { 
+    font-weight: 600; 
+    margin: 13px 0 10px;
+} 
+
+.designation p  { 
+    font-size: 20px; 
+    color: #fff; 
+    text-align: center;
+} 
+
+.designation p  { 
+    text-align: center;
+} 
+
+.personalBio p  { 
+    text-align: center;
+} 
+
+.personalBio p  { 
+    font-size: 18px; 
+    margin: 12px 0 0; 
+    color: #9d9d9d;
+} 
+
+button { 
+    -webkit-tap-highlight-color: transparent;
+} 
+
+button { 
+    cursor: pointer;
+} 
+
+button { 
+    transition: .3s ease-in; 
+    -moz-transition: .3s ease-in; 
+    -ms-transition: .3s ease-in; 
+    -o-transition: .3s ease-in; 
+    -webkit-transition: .3s ease-in;
+} 
+
+button { 
+    user-select: none; 
+    -webkit-user-drag: auto;
+} 
+
+.profile-button .connect-btn  { 
+    border-radius: 30px; 
+    color: #fff; 
+    margin: 5px; 
+    font-size: 17px; 
+    font-weight: 400; 
+    padding: 15px 19px; 
+    background-color: #181924; 
+    border: .5px solid grey; 
+    text-transform: capitalize;
+} 
+
+.row1 img  { 
+    margin: 0 0 27px; 
+    width: 27%;
+    position: relative;
+    filter: hue-rotate(45deg) saturate(1000%); /* Apply golden color using CSS filter */
+ 
+    
+} 
+
+.row1 .wrapper img  { 
+    
+    width: 100%; 
+    border-radius: 1rem; 
+    margin: 0 0 10px;
+    /* background-color: #fff; */
+} 
+
+
+
+span { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    outline: 0; 
+    font-size: 100%;
+} 
+
+.row1 .wrapper .alt-text  { 
+    max-width: 100%; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    color: #fff;
+} 
+
+.get-button button  { 
+    background-color: #00aff0; 
+    border: .5px solid grey; 
+    border-radius: 31px; 
+    color: #fff; 
+    font-size: 18px; 
+    width: 300px; 
+    padding: 8px 10px; 
+    position: fixed; 
+    left: 50%; 
+    bottom: 15px; 
+    transform: translateX(-50%);
+} 
+
+.designation p span  { 
+    color: #00bcd4;
+} 
+
+
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-IFoIW.style-IFoIW {  
+   display: none;  
+}  
