@@ -1,4 +1,4 @@
-  body {  
+body {  
     font-size:100%;
     font-family:Nunito,sans-serif!important;
     font-weight:400;
@@ -37,7 +37,7 @@ body {
     font-family: Nunito,sans-serif!important; 
     font-weight: 400; 
     scroll-behavior: smooth; 
-    background-color: #000000;
+   
 } 
 
 html { 
@@ -72,7 +72,6 @@ html {
     max-height: 212px; 
     overflow: hidden; 
     margin: 0 auto; 
-    background: #000; 
     border-radius: 0 0 8px 8px;
 } 
 
@@ -167,12 +166,21 @@ img {
 } 
 
 .row1 .wrapper  { 
+   
     text-align: center;
+    background: rgba( 255, 255, 255, 0.25 );
+
+            backdrop-filter: blur( 4px );
+            -webkit-backdrop-filter: blur( 4px );
+            border-radius: 10px;
+            border: 1px solid rgba( 255, 255, 255, 0.18 );
 } 
 
 .row1 .wrapper  { 
     margin: 0 0 27px; 
     width: 27%;
+    padding: 10px;
+   
 } 
 
 .row1 .wrapper  { 
@@ -289,34 +297,34 @@ button {
 } 
 
 .profile-button .connect-btn  { 
-    border-radius: 30px; 
-    color: #fff; 
+    background: rgba(213, 167, 167, 0);
+
+border-radius: 10px;
+    border-radius: 10px; 
+    color: #ffffff; 
     margin: 5px; 
     font-size: 17px; 
     font-weight: 400; 
     padding: 15px 19px; 
-    background-color: #181924; 
     border: .5px solid grey; 
     text-transform: capitalize;
 } 
 
 .row1 img  { 
-    margin: 0 0 27px; 
-    width: 27%;
-    position: relative;
-    filter: hue-rotate(45deg) saturate(1000%); /* Apply golden color using CSS filter */
- 
-    
+   
+    width: 52px;
 } 
 
 .row1 .wrapper img  { 
-    
-    width: 100%; 
-    border-radius: 1rem; 
+    align-self: center;
+    width: 80%; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px; 
     margin: 0 0 10px;
-    /* background-color: #fff; */
-} 
+   
 
+}  
 
 
 span { 
@@ -354,7 +362,6 @@ span {
 } 
 
 
-/* These were inline style tags. Uses id+class to override almost everything */
-#style-IFoIW.style-IFoIW {  
-   display: none;  
-}  
+
+
+
