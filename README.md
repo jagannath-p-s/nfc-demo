@@ -1,5 +1,8 @@
 # 🏷️ Whitetap Demo App
 
+![Thumbnail](images/thumbnail.png)
+
+
 This test web application is designed for a client to consolidate all his social links in one place, similar to Linktree. Despite its simplicity, this application has high potential. Once the coding is done, the client can then host it and write the URL to a MIFARE Classic NFC card. All his social links can be shared with just a tap on NFC-enabled devices.
 
 ---
