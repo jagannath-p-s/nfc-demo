@@ -46,4 +46,43 @@ This test web application is designed for a client to consolidate all his social
 
 ---
 
-The finished version is now available for purchase at [www.thewhitetap.com](https://www.thewhitetap.com).
+The finished version is now available for purchase at [www.thewhitetap.com](https://www.thewhitetap.com). You can also view a sample profile at [www.thewhitetap.com/profile/1](https://www.thewhitetap.com/profile/1).
+
+---
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: #f4f4f9;
+        color: #333;
+    }
+    h1 {
+        color: #4CAF50;
+        text-align: center;
+    }
+    h2 {
+        color: #2196F3;
+    }
+    h3 {
+        color: #FF5722;
+    }
+    a {
+        color: #FF9800;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    ul, ol {
+        padding-left: 20px;
+    }
+    li {
+        margin-bottom: 10px;
+    }
+    code {
+        background-color: #e0e0e0;
+        padding: 2px 4px;
+        border-radius: 4px;
+    }
+</style>
