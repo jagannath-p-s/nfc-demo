@@ -1,27 +1,34 @@
-# whitetap demo app
+# 🏷️ whitetap demo app
 
-This test web application is designed for a client to consolidate all his social links in one place like linktree . Even though this is such a simple application it have high ptential , once the coding is done the client then host it and write the url to a mifare classic NFC card , then all his social links can be shared with just a tap on the nfc enabled devices 
+This test web application is designed for a client to consolidate all his social links in one place like Linktree. Even though this is such a simple application, it has high potential. Once the coding is done, the client can then host it and write the URL to a MIFARE Classic NFC card. Then all his social links can be shared with just a tap on NFC-enabled devices.
 
-## Features
+---
+
+## 🌟 Features
 
 - **Save Contact**: Download the client's contact as a vCard (.vcf).
 - **Share Contact**: Open WhatsApp with a prewritten message.
 - **Direct Links**: Quick access to various social media profiles and contact options.
 
-## Technologies Used
+---
+
+## 🛠️ Technologies Used
 
 - **HTML**: Structure
 - **CSS**: Styling
 - **JavaScript**: Interactivity
 
-## Usage
+---
+
+## 📋 Usage
 
 1. **Save Contact**: Click "Save Contact" to download vCard.
 2. **Share Contact**: Click "Share Contact" to open WhatsApp.
 3. **Social Media**: Click icons to open respective platforms.
 
+---
 
-## Code Overview
+## 🧩 Code Overview
 
 ### HTML
 
@@ -37,3 +44,6 @@ This test web application is designed for a client to consolidate all his social
 - **`openURL`**: Handles URL redirection based on the protocol.
 - **`generateVCard`**: Creates and downloads a vCard with contact info.
 
+---
+
+The finished version is now available for purchase at [www.thewhitetap.com](https://www.thewhitetap.com).
