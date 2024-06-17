@@ -50,39 +50,11 @@ The finished version is now available for purchase at [www.thewhitetap.com](http
 
 ---
 
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        line-height: 1.6;
-        background-color: #f4f4f9;
-        color: #333;
-    }
-    h1 {
-        color: #4CAF50;
-        text-align: center;
-    }
-    h2 {
-        color: #2196F3;
-    }
-    h3 {
-        color: #FF5722;
-    }
-    a {
-        color: #FF9800;
-        text-decoration: none;
-    }
-    a:hover {
-        text-decoration: underline;
-    }
-    ul, ol {
-        padding-left: 20px;
-    }
-    li {
-        margin-bottom: 10px;
-    }
-    code {
-        background-color: #e0e0e0;
-        padding: 2px 4px;
-        border-radius: 4px;
-    }
-</style>
+<details>
+<summary>Expand for more details</summary>
+
+### Additional Information
+
+This application is highly customizable and scalable, allowing clients to add more social links and functionalities as needed. With a user-friendly interface, it ensures that users can easily share their contact information with just a tap.
+
+</details>
