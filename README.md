@@ -48,10 +48,7 @@ This test web application is designed for a client to consolidate all his social
 
 The finished version is now available for purchase at [www.thewhitetap.com](https://www.thewhitetap.com). You can also view a sample profile at [www.thewhitetap.com/profile/1](https://www.thewhitetap.com/profile/1).
 
----
 
-<details>
-<summary>Expand for more details</summary>
 
 ### Additional Information
 
